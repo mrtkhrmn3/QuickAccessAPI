@@ -6,5 +6,10 @@ namespace QuickAccessAPI.Interfaces.IServices
     {
         Task SendNotificationAsync(CreateNotificationDTO dto, Guid userId);
         Task<IEnumerable<Notification>> GetNotificationsForSecurityAsync(string siteName);
+        Task<bool> UpdateNotificationAsync(NotificationUpdateDTO dto);
+        Task<bool> DeleteNotificationAsync(Guid id);
+        Task<IEnumerable<Notification>> GetActiveNotificationsForSecurityAsync(string siteName);
+
+
     }
 }
