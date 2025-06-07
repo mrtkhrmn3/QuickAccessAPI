@@ -179,3 +179,13 @@ C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\bin\
 C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\bin\Debug\net8.0\publish\publish\QuickAccessAPI.runtimeconfig.json
 C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\bin\Debug\net8.0\publish\QuickAccessAPI.deps.json
 C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\bin\Debug\net8.0\publish\QuickAccessAPI.runtimeconfig.json
+C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\bin\Debug\net8.0\publish\publish\publish\web.config
+C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\bin\Debug\net8.0\publish\publish\publish\appsettings.Development.json
+C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\bin\Debug\net8.0\publish\publish\publish\appsettings.json
+C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\bin\Debug\net8.0\publish\publish\publish\QuickAccessAPI.deps.json
+C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\bin\Debug\net8.0\publish\publish\publish\QuickAccessAPI.runtimeconfig.json
+C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\bin\Debug\net8.0\publish\publish\publish\publish\web.config
+C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\bin\Debug\net8.0\publish\publish\publish\publish\appsettings.Development.json
+C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\bin\Debug\net8.0\publish\publish\publish\publish\appsettings.json
+C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\bin\Debug\net8.0\publish\publish\publish\publish\QuickAccessAPI.deps.json
+C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\bin\Debug\net8.0\publish\publish\publish\publish\QuickAccessAPI.runtimeconfig.json
