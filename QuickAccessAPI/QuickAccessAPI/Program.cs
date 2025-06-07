@@ -66,10 +66,11 @@ builder.Services.AddAuthorization();
 
 //Database
 builder.Services.AddDbContext<QuickAccessDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("GoogleCloudConnection")));
 
 //Dependency Injection
-builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<INotificationRepository, NotificationRepository>();
+builder.Services.AddScoped<INotificationService, NotificationService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IAdminRepository, AdminRepository>();

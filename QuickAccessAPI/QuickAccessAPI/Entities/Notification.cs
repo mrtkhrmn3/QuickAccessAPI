@@ -19,7 +19,7 @@ public class Notification
     [Required]
     public string Status { get; set; } = "Pending";  // Bildirimin durumu
     [Required]
-    public string Description { get; set; }  // Opsiyonel ek bilgi
+    public string Description { get; set; }  // Detaylı bilgi
     [Required]
     public DateTime CreatedAt { get; set; } = DateTime.Now;
 
