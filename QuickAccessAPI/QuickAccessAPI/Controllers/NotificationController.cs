@@ -37,5 +37,38 @@ namespace QuickAccessAPI.Controllers
             var notifications = await _notificationService.GetNotificationsForSecurityAsync(siteName);
             return Ok(notifications);
         }
+
+        [HttpGet("GetActiveNotifications/{siteName}")]
+        [Authorize(Roles = "Security")]
+        public async Task<IActionResult> GetActiveNotifications(string siteName)
+        {
+            var notifications = await _notificationService.GetActiveNotificationsForSecurityAsync(siteName);
+            return Ok(notifications);
+        }
+
+
+        [HttpPut("UpdateNotification")]
+        [Authorize(Roles = "Resident")]
+        public async Task<IActionResult> UpdateNotification([FromBody] NotificationUpdateDTO dto)
+        {
+            var result = await _notificationService.UpdateNotificationAsync(dto);
+            if (!result)
+                return NotFound("Notification not found");
+
+            return Ok("Notification updated successfully.");
+        }
+
+        [HttpDelete("DeleteNotification{id}")]
+        [Authorize(Roles = "Resident")]
+        public async Task<IActionResult> DeleteNotification(Guid id)
+        {
+            var success = await _notificationService.DeleteNotificationAsync(id);
+            if (!success)
+                return NotFound("Notification not found");
+
+            return Ok("Notification deleted successfully.");
+        }
+
+
     }
 }

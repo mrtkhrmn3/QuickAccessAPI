@@ -17,5 +17,15 @@ namespace QuickAccessAPI.Repositories
                 .OrderByDescending(n => n.CreatedAt)
                 .ToListAsync();
         }
+
+        public async Task<IEnumerable<Notification>> GetActiveNotificationsBySiteAsync(string siteName)
+        {
+            return await _dbSet
+                .AsNoTracking()
+                .Where(n => n.SiteName == siteName && n.Status == "Active")
+                .OrderByDescending(n => n.CreatedAt)
+                .ToListAsync();
+        }
+
     }
 }
