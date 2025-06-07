@@ -46,6 +46,21 @@ namespace QuickAccessAPI.Controllers
             return Ok(notifications);
         }
 
+        [HttpGet("ActiveNotificationsForResident")]
+        [Authorize(Roles = "Resident")]
+        public async Task<IActionResult> GetActiveNotificationsForResident()
+        {
+            var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (!Guid.TryParse(userIdString, out var userId))
+            {
+                return Unauthorized("Invalid user ID in token.");
+            }
+
+            var notifications = await _notificationService.GetActiveNotificationsForResidentAsync(userId);
+            return Ok(notifications);
+        }
+
+
 
         [HttpPut("UpdateNotification")]
         [Authorize(Roles = "Resident")]
@@ -56,6 +71,20 @@ namespace QuickAccessAPI.Controllers
                 return NotFound("Notification not found");
 
             return Ok("Notification updated successfully.");
+        }
+
+        [HttpPut("CompleteNotification")]
+        [Authorize(Roles = "Security")]
+        public async Task<IActionResult> CompleteNotification([FromBody] NotificationUpdateDTO dto)
+        {
+            if (dto.Status != "Completed")
+                return BadRequest("Only 'Completed' status update is allowed.");
+
+            var result = await _notificationService.UpdateNotificationAsync(dto);
+            if (!result)
+                return NotFound("Notification not found");
+
+            return Ok("Notification marked as completed.");
         }
 
         [HttpDelete("DeleteNotification{id}")]

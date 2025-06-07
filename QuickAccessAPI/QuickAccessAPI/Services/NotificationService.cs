@@ -7,25 +7,31 @@ namespace QuickAccessAPI.Services
     public class NotificationService : INotificationService
     {
         private readonly INotificationRepository _notificationRepository;
+        private readonly IResidentRepository _residentRepository;
 
-        public NotificationService(INotificationRepository notificationRepository)
+        public NotificationService(INotificationRepository notificationRepository, IResidentRepository residentRepository)
         {
             _notificationRepository = notificationRepository;
+            _residentRepository = residentRepository;
         }
 
         public async Task SendNotificationAsync(CreateNotificationDTO dto, Guid userId)
         {
+            var resident = await _residentRepository.GetByIdAsync(userId);
+            if (resident == null)
+                throw new Exception("User not found in residents.");
+
             var notification = new Notification
             {
                 Id = Guid.NewGuid(),
                 UserId = userId,
-                Block = dto.Block,
-                AptNo = dto.AptNo,
+                Block = resident.Block,
+                AptNo = resident.AptNo,
+                SiteName = resident.SiteName,
                 Type = dto.Type,
                 Status = "Active",
                 Description = dto.Description,
-                CreatedAt = DateTime.Now,
-                SiteName = dto.SiteName
+                CreatedAt = DateTime.Now
             };
 
             await _notificationRepository.AddAsync(notification);
@@ -66,5 +72,12 @@ namespace QuickAccessAPI.Services
         {
             return await _notificationRepository.GetActiveNotificationsBySiteAsync(siteName);
         }
+
+        public async Task<IEnumerable<Notification>> GetActiveNotificationsForResidentAsync(Guid userId)
+        {
+            var allNotifications = await _notificationRepository.GetAllAsync();
+            return allNotifications.Where(n => n.UserId == userId && n.Status == "Active");
+        }
+
     }
 }

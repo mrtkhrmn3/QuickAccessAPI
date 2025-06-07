@@ -1,4 +1,6 @@
 C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\publish\QuickAccessAPI.exe
+C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\publish\publish\publish\publish\publish\web.config
+C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\publish\publish\publish\publish\web.config
 C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\publish\publish\publish\web.config
 C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\publish\publish\web.config
 C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\publish\appsettings.Development.json
@@ -7,6 +9,14 @@ C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\publ
 C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\publish\publish\appsettings.json
 C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\publish\publish\publish\appsettings.Development.json
 C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\publish\publish\publish\appsettings.json
+C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\publish\publish\publish\publish\appsettings.Development.json
+C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\publish\publish\publish\publish\appsettings.json
+C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\publish\publish\publish\publish\publish\appsettings.Development.json
+C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\publish\publish\publish\publish\publish\appsettings.json
+C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\publish\publish\publish\publish\publish\QuickAccessAPI.deps.json
+C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\publish\publish\publish\publish\publish\QuickAccessAPI.runtimeconfig.json
+C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\publish\publish\publish\publish\QuickAccessAPI.deps.json
+C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\publish\publish\publish\publish\QuickAccessAPI.runtimeconfig.json
 C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\publish\publish\publish\QuickAccessAPI.deps.json
 C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\publish\publish\publish\QuickAccessAPI.runtimeconfig.json
 C:\Users\Mert\Documents\GitHub\QuickAccessAPI\QuickAccessAPI\QuickAccessAPI\publish\publish\QuickAccessAPI.deps.json
