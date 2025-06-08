@@ -20,9 +20,13 @@ namespace QuickAccessAPI.Repositories
 
         public async Task<IEnumerable<Notification>> GetActiveNotificationsBySiteAsync(string siteName)
         {
+            var lowerSiteName = siteName.Trim().ToLower();
+
             return await _dbSet
                 .AsNoTracking()
-                .Where(n => n.SiteName == siteName && n.Status == "Active")
+                .Where(n => n.Status == "Active" &&
+                            !string.IsNullOrEmpty(n.SiteName) &&
+                            n.SiteName.Trim().ToLower() == lowerSiteName)
                 .OrderByDescending(n => n.CreatedAt)
                 .ToListAsync();
         }

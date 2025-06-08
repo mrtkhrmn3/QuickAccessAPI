@@ -7,24 +7,52 @@
       "RelativeMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|solutionrelative:quickaccessapi\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|c:\\users\\mert\\documents\\github\\quickaccessapi\\quickaccessapi\\quickaccessapi\\interfaces\\iservices\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|solutionrelative:quickaccessapi\\interfaces\\iservices\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|c:\\users\\mert\\documents\\github\\quickaccessapi\\quickaccessapi\\quickaccessapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|solutionrelative:quickaccessapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|c:\\users\\mert\\documents\\github\\quickaccessapi\\quickaccessapi\\quickaccessapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|solutionrelative:quickaccessapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|c:\\users\\mert\\documents\\github\\quickaccessapi\\quickaccessapi\\quickaccessapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|solutionrelative:quickaccessapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|c:\\users\\mert\\documents\\github\\quickaccessapi\\quickaccessapi\\quickaccessapi\\dto\\notificationcompletedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|solutionrelative:quickaccessapi\\dto\\notificationcompletedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|c:\\users\\mert\\documents\\github\\quickaccessapi\\quickaccessapi\\quickaccessapi\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|solutionrelative:quickaccessapi\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|c:\\users\\mert\\documents\\github\\quickaccessapi\\quickaccessapi\\quickaccessapi\\dto\\notificationupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|solutionrelative:quickaccessapi\\dto\\notificationupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|c:\\users\\mert\\documents\\github\\quickaccessapi\\quickaccessapi\\quickaccessapi\\interfaces\\iservices\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|solutionrelative:quickaccessapi\\interfaces\\iservices\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|c:\\users\\mert\\documents\\github\\quickaccessapi\\quickaccessapi\\quickaccessapi\\dto\\createnotificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|solutionrelative:quickaccessapi\\dto\\createnotificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|c:\\users\\mert\\documents\\github\\quickaccessapi\\quickaccessapi\\quickaccessapi\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|solutionrelative:quickaccessapi\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|c:\\users\\mert\\documents\\github\\quickaccessapi\\quickaccessapi\\quickaccessapi\\services\\usermanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|solutionrelative:quickaccessapi\\services\\usermanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|c:\\users\\mert\\documents\\github\\quickaccessapi\\quickaccessapi\\quickaccessapi\\interfaces\\iservices\\iusermanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|solutionrelative:quickaccessapi\\interfaces\\iservices\\iusermanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|c:\\users\\mert\\documents\\github\\quickaccessapi\\quickaccessapi\\quickaccessapi\\interfaces\\irepositories\\inotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|solutionrelative:quickaccessapi\\interfaces\\irepositories\\inotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|c:\\users\\mert\\documents\\github\\quickaccessapi\\quickaccessapi\\quickaccessapi\\interfaces\\iservices\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|solutionrelative:quickaccessapi\\interfaces\\iservices\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|c:\\users\\mert\\documents\\github\\quickaccessapi\\quickaccessapi\\quickaccessapi\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|solutionrelative:quickaccessapi\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|c:\\users\\mert\\documents\\github\\quickaccessapi\\quickaccessapi\\quickaccessapi\\repositories\\securityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5388B2C-A927-4491-A4AE-A0592A153292}|QuickAccessAPI\\QuickAccessAPI.csproj|solutionrelative:quickaccessapi\\repositories\\securityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,41 +74,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NotificationUpdateDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Dto\\NotificationUpdateDTO.cs",
-              "RelativeDocumentMoniker": "QuickAccessAPI\\Dto\\NotificationUpdateDTO.cs",
-              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Dto\\NotificationUpdateDTO.cs",
-              "RelativeToolTip": "QuickAccessAPI\\Dto\\NotificationUpdateDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "NotificationCompleteDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Dto\\NotificationCompleteDTO.cs",
+              "RelativeDocumentMoniker": "QuickAccessAPI\\Dto\\NotificationCompleteDTO.cs",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Dto\\NotificationCompleteDTO.cs",
+              "RelativeToolTip": "QuickAccessAPI\\Dto\\NotificationCompleteDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T22:26:32.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "INotificationService.cs",
-              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Interfaces\\IServices\\INotificationService.cs",
-              "RelativeDocumentMoniker": "QuickAccessAPI\\Interfaces\\IServices\\INotificationService.cs",
-              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Interfaces\\IServices\\INotificationService.cs",
-              "RelativeToolTip": "QuickAccessAPI\\Interfaces\\IServices\\INotificationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T22:12:21.429Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "QuickAccessAPI\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "QuickAccessAPI\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T22:07:30.437Z",
+              "WhenOpened": "2025-06-08T20:33:04.071Z",
               "EditorCaption": ""
             },
             {
@@ -91,35 +93,156 @@
               "RelativeDocumentMoniker": "QuickAccessAPI\\Controllers\\NotificationController.cs",
               "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Controllers\\NotificationController.cs",
               "RelativeToolTip": "QuickAccessAPI\\Controllers\\NotificationController.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAswDwAAAAJAAAA",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAcwFQAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T22:05:49.955Z",
+              "WhenOpened": "2025-06-08T18:15:07.212Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Program.cs",
+              "RelativeDocumentMoniker": "QuickAccessAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Program.cs",
+              "RelativeToolTip": "QuickAccessAPI\\Program.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEQAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T18:06:43.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "QuickAccessAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\appsettings.json",
+              "RelativeToolTip": "QuickAccessAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-08T19:39:10.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "NotificationService.cs",
               "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Services\\NotificationService.cs",
               "RelativeDocumentMoniker": "QuickAccessAPI\\Services\\NotificationService.cs",
               "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Services\\NotificationService.cs",
               "RelativeToolTip": "QuickAccessAPI\\Services\\NotificationService.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAQwE0AAAA1AAAA",
+              "ViewState": "AQIAADIAAAAAAAAAAAAgwEMAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T22:04:25.712Z",
+              "WhenOpened": "2025-06-08T17:29:44.8Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CreateNotificationDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Dto\\CreateNotificationDTO.cs",
-              "RelativeDocumentMoniker": "QuickAccessAPI\\Dto\\CreateNotificationDTO.cs",
-              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Dto\\CreateNotificationDTO.cs",
-              "RelativeToolTip": "QuickAccessAPI\\Dto\\CreateNotificationDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
+              "Title": "INotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Interfaces\\IServices\\INotificationService.cs",
+              "RelativeDocumentMoniker": "QuickAccessAPI\\Interfaces\\IServices\\INotificationService.cs",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Interfaces\\IServices\\INotificationService.cs",
+              "RelativeToolTip": "QuickAccessAPI\\Interfaces\\IServices\\INotificationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T22:03:40.828Z",
+              "WhenOpened": "2025-06-08T20:29:51.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Controllers\\UserManagementController.cs",
+              "RelativeDocumentMoniker": "QuickAccessAPI\\Controllers\\UserManagementController.cs",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Controllers\\UserManagementController.cs",
+              "RelativeToolTip": "QuickAccessAPI\\Controllers\\UserManagementController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwBIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T20:18:01.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserManagementService.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Services\\UserManagementService.cs",
+              "RelativeDocumentMoniker": "QuickAccessAPI\\Services\\UserManagementService.cs",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Services\\UserManagementService.cs",
+              "RelativeToolTip": "QuickAccessAPI\\Services\\UserManagementService.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAA3wEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T20:17:31.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUserManagementService.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Interfaces\\IServices\\IUserManagementService.cs",
+              "RelativeDocumentMoniker": "QuickAccessAPI\\Interfaces\\IServices\\IUserManagementService.cs",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Interfaces\\IServices\\IUserManagementService.cs",
+              "RelativeToolTip": "QuickAccessAPI\\Interfaces\\IServices\\IUserManagementService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T20:16:47.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ILoginService.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Interfaces\\IServices\\ILoginService.cs",
+              "RelativeDocumentMoniker": "QuickAccessAPI\\Interfaces\\IServices\\ILoginService.cs",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Interfaces\\IServices\\ILoginService.cs",
+              "RelativeToolTip": "QuickAccessAPI\\Interfaces\\IServices\\ILoginService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T19:52:31.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "INotificationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Interfaces\\IRepositories\\INotificationRepository.cs",
+              "RelativeDocumentMoniker": "QuickAccessAPI\\Interfaces\\IRepositories\\INotificationRepository.cs",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Interfaces\\IRepositories\\INotificationRepository.cs",
+              "RelativeToolTip": "QuickAccessAPI\\Interfaces\\IRepositories\\INotificationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T17:53:39.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "QuickAccessAPI\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "QuickAccessAPI\\Repositories\\GenericRepository.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T17:38:43.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SecurityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Repositories\\SecurityRepository.cs",
+              "RelativeDocumentMoniker": "QuickAccessAPI\\Repositories\\SecurityRepository.cs",
+              "ToolTip": "C:\\Users\\Mert\\Documents\\GitHub\\QuickAccessAPI\\QuickAccessAPI\\QuickAccessAPI\\Repositories\\SecurityRepository.cs",
+              "RelativeToolTip": "QuickAccessAPI\\Repositories\\SecurityRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T17:38:47.66Z",
               "EditorCaption": ""
             }
           ]

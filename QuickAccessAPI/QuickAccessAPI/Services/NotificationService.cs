@@ -1,6 +1,8 @@
 ﻿using QuickAccessAPI.Dto;
 using QuickAccessAPI.Interfaces.IRepositories;
 using QuickAccessAPI.Interfaces.IServices;
+using QuickAccessAPI.Repositories;
+using System;
 
 namespace QuickAccessAPI.Services
 {
@@ -8,11 +10,15 @@ namespace QuickAccessAPI.Services
     {
         private readonly INotificationRepository _notificationRepository;
         private readonly IResidentRepository _residentRepository;
+        private readonly ISecurityRepository _securityRepository;
 
-        public NotificationService(INotificationRepository notificationRepository, IResidentRepository residentRepository)
+        public NotificationService(INotificationRepository notificationRepository,
+                                   IResidentRepository residentRepository,
+                                   ISecurityRepository securityRepository)
         {
             _notificationRepository = notificationRepository;
             _residentRepository = residentRepository;
+            _securityRepository = securityRepository;
         }
 
         public async Task SendNotificationAsync(CreateNotificationDTO dto, Guid userId)
@@ -31,7 +37,7 @@ namespace QuickAccessAPI.Services
                 Type = dto.Type,
                 Status = "Active",
                 Description = dto.Description,
-                CreatedAt = DateTime.Now
+                CreatedAt = DateTime.UtcNow.AddHours(3)
             };
 
             await _notificationRepository.AddAsync(notification);
@@ -42,6 +48,7 @@ namespace QuickAccessAPI.Services
         {
             var all = await _notificationRepository.GetAllAsync();
             return all.Where(n => n.SiteName == siteName);
+
         }
 
         public async Task<bool> UpdateNotificationAsync(NotificationUpdateDTO dto)
@@ -58,6 +65,18 @@ namespace QuickAccessAPI.Services
             return await _notificationRepository.SaveChangesAsync();
         }
 
+        public async Task<bool> CompleteNotificationAsync(NotificationCompleteDTO dto)
+        {
+            var notification = await _notificationRepository.GetByIdAsync(dto.Id);
+            if (notification == null)
+                return false;
+
+            notification.Status = "Completed";
+
+            _notificationRepository.Update(notification);
+            return await _notificationRepository.SaveChangesAsync();
+        }
+
         public async Task<bool> DeleteNotificationAsync(Guid id)
         {
             var notification = await _notificationRepository.GetByIdAsync(id);
@@ -68,8 +87,15 @@ namespace QuickAccessAPI.Services
             return await _notificationRepository.SaveChangesAsync();
         }
 
-        public async Task<IEnumerable<Notification>> GetActiveNotificationsForSecurityAsync(string siteName)
+        public async Task<IEnumerable<Notification>> GetActiveNotificationsForSecurityAsync(Guid userId)
         {
+
+            var security = await _securityRepository.GetByIdAsync(userId);
+            if (security == null)
+                return Enumerable.Empty<Notification>();
+
+            var siteName = security.SiteName?.Trim();
+
             return await _notificationRepository.GetActiveNotificationsBySiteAsync(siteName);
         }
 
@@ -77,6 +103,13 @@ namespace QuickAccessAPI.Services
         {
             var allNotifications = await _notificationRepository.GetAllAsync();
             return allNotifications.Where(n => n.UserId == userId && n.Status == "Active");
+        }
+
+        public async Task<Notification> GetNotificationById(Guid id)
+        {
+            var notification = await _notificationRepository.GetByIdAsync(id);
+
+            return notification;
         }
 
     }
