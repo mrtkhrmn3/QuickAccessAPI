@@ -32,17 +32,25 @@ namespace QuickAccessAPI.Controllers
         }
 
         [HttpGet("{siteName}")]
+        [Authorize(Roles = "Security")]
         public async Task<IActionResult> GetNotificationsForSecurity(string siteName)
         {
             var notifications = await _notificationService.GetNotificationsForSecurityAsync(siteName);
             return Ok(notifications);
         }
 
-        [HttpGet("GetActiveNotifications/{siteName}")]
+        [HttpGet("ActiveNotificationsForSecurity")]
         [Authorize(Roles = "Security")]
-        public async Task<IActionResult> GetActiveNotifications(string siteName)
+        public async Task<IActionResult> GetActiveNotifications()
         {
-            var notifications = await _notificationService.GetActiveNotificationsForSecurityAsync(siteName);
+            var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+            if (!Guid.TryParse(userIdString, out var userId))
+            {
+                return Unauthorized("Invalid user ID in token.");
+            }
+
+            var notifications = await _notificationService.GetActiveNotificationsForSecurityAsync(userId);
             return Ok(notifications);
         }
 
@@ -75,19 +83,16 @@ namespace QuickAccessAPI.Controllers
 
         [HttpPut("CompleteNotification")]
         [Authorize(Roles = "Security")]
-        public async Task<IActionResult> CompleteNotification([FromBody] NotificationUpdateDTO dto)
+        public async Task<IActionResult> CompleteNotification([FromBody] NotificationCompleteDTO dto)
         {
-            if (dto.Status != "Completed")
-                return BadRequest("Only 'Completed' status update is allowed.");
-
-            var result = await _notificationService.UpdateNotificationAsync(dto);
+            var result = await _notificationService.CompleteNotificationAsync(dto);
             if (!result)
                 return NotFound("Notification not found");
 
             return Ok("Notification marked as completed.");
         }
 
-        [HttpDelete("DeleteNotification{id}")]
+        [HttpDelete("DeleteNotification/{id}")]
         [Authorize(Roles = "Resident")]
         public async Task<IActionResult> DeleteNotification(Guid id)
         {
@@ -98,6 +103,13 @@ namespace QuickAccessAPI.Controllers
             return Ok("Notification deleted successfully.");
         }
 
+        [HttpGet("GetNotification/{id}")]
+        [Authorize(Roles ="Security")]
+        public async Task<IActionResult> GetNotificationById(Guid id)
+        {
+            var notification = await _notificationService.GetNotificationById(id);
 
+            return Ok(notification);
+        }
     }
 }
