@@ -2,5 +2,6 @@
 {
     public interface ISecurityRepository : IGenericRepository<Security>
     {
+        Task<IEnumerable<Security>> GetBySiteNameAsync(string siteName);
     }
 }

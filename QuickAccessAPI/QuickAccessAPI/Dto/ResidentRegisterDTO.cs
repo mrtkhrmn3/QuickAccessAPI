@@ -8,7 +8,6 @@ namespace QuickAccessAPI.Dto
         public string Username { get; set; }
 
         [Required]
-        [MinLength(6, ErrorMessage = "Şifre en az 6 karakter olmalı.")]
         public string Password { get; set; }
 
         [Required]
@@ -24,7 +23,6 @@ namespace QuickAccessAPI.Dto
         public int AptNo { get; set; }
 
         [Required]
-        [Phone(ErrorMessage = "Geçerli bir telefon numarası giriniz.")]
         public string PhoneNumber { get; set; }
 
         [Required]

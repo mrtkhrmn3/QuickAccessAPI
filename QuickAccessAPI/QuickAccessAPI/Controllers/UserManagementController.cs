@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using QuickAccessAPI.Interfaces.IServices;
+using System.Security.Claims;
 
 namespace QuickAccessAPI.Controllers
 {
@@ -46,6 +47,30 @@ namespace QuickAccessAPI.Controllers
         {
             var residents = await _userManagementService.GetAllResidentsAsync();
             return Ok(residents);
+        }
+
+        [HttpGet("ResidentsForSiteManager")]
+        [Authorize(Roles = "SiteManager")]
+        public async Task<IActionResult> GetResidentsForSiteManager()
+        {
+            var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (!Guid.TryParse(userIdString, out var userId))
+                return Unauthorized("Invalid user ID");
+
+            var residents = await _userManagementService.GetResidentsForSiteManagerAsync(userId);
+            return Ok(residents);
+        }
+
+        [HttpGet("SecuritiesForSiteManager")]
+        [Authorize(Roles = "SiteManager")]
+        public async Task<IActionResult> GetSecuritiesForSiteManager()
+        {
+            var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (!Guid.TryParse(userIdString, out var userId))
+                return Unauthorized("Invalid user ID");
+
+            var securities = await _userManagementService.GetSecuritiesForSiteManagerAsync(userId);
+            return Ok(securities);
         }
 
         [HttpDelete("Admin/{id}")]

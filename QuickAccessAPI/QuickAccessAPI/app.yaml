@@ -1,4 +1,4 @@
-service: myapi2  
+service: default  
 runtime: aspnetcore
 env: flex
 entrypoint: dotnet ./publish/QuickAccessAPI.dll
